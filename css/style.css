@@ -1,6 +1,16 @@
 .white{
     color: white;
 }
+
+._bigger-then-fs-1{
+    font-size: 60px;
+}
+
+.line-white{
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
 /* header */
 header{
     height: 80px;
@@ -20,12 +30,23 @@ header .full-screen{
 
 /* main */
 /* section start */
-#start-bootstrap *{
-    height: 100%;
-}
-
 #start-bootstrap .full-screen{
     background-color: #1abc9c;
+}
+
+#start-bootstrap .img-container{
+    width: 300px;
+    height: 300px;
+}
+
+#start-bootstrap .img-container img{
+    width: 100%;
+}
+
+#start-bootstrap .list ul li:nth-child(2)::before,
+#start-bootstrap .list ul li:nth-child(2)::after{
+    content: '-';
+    color: white;
 }
 
 
@@ -48,7 +69,7 @@ header .full-screen{
 }
 
 .debug #start-bootstrap{
-    height: 300px;
+    /* height: 800px; */
     /* background-color: orange; */
 }
 
