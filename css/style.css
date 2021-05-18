@@ -3,36 +3,48 @@ header{
     height: 80px;
 }
 
-header>.row{
+header *{
     height: 100%;
 }
 
 /* jumbotron */
-.jumbotron>.row{
+.jumbotron *{
     height: 100%;
 }
+
+/* main */
+/* section portfolio */
+
 /* debug */
-.debug header{
+.debug header .full-screen{
     background-color: blue;
 }
 
-.debug header>.row{
+.debug header .container>.row{
     background-color: black;
 }
 
-.debug header>.row>.col{
+.debug header .container>.row>.col{
     border: 1px solid red;
 }
 
 .debug .jumbotron{
     height: 300px;
-    background-color: blue;
+    background-color: orange;
 }
 
-.debug .jumbotron>.row{
-    background-color: rgb(51, 51, 51);
+.debug .jumbotron .row{
+    background-color: rgb(182, 182, 182);
 }
 
-.debug .jumbotron>.row .col{
-    border: 1px solid rgb(255, 94, 0);
+.debug .jumbotron .row .col{
+    border: 2px solid rgb(13, 0, 128);
+}
+
+.debug #portfolio{
+    background-color: lightslategrey;
+}
+
+.debug #portfolio [class*="col-"]{
+    border: 1px solid red;
 }
