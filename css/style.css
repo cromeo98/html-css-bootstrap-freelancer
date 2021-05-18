@@ -15,6 +15,9 @@ header *{
 /* main */
 /* section portfolio */
 
+
+/* footer */
+
 /* debug */
 .debug header .full-screen{
     background-color: blue;
@@ -24,7 +27,7 @@ header *{
     background-color: black;
 }
 
-.debug header .container>.row>.col{
+.debug [class*="col"]{
     border: 1px solid red;
 }
 
@@ -37,14 +40,19 @@ header *{
     background-color: rgb(182, 182, 182);
 }
 
-.debug .jumbotron .row .col{
-    border: 2px solid rgb(13, 0, 128);
-}
-
 .debug #portfolio{
     background-color: lightslategrey;
 }
 
-.debug #portfolio [class*="col-"]{
-    border: 1px solid red;
+.debug footer{
+    background-color: navy;
 }
+
+.debug .top-footer{
+    background-color: olivedrab;
+}
+
+.debug .bottom-footer{
+    background-color: olive;
+}
+
