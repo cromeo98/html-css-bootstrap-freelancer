@@ -1,0 +1,25 @@
+/* header */
+header{
+    height: 80px;
+}
+
+header>.row{
+    height: 100%;
+}
+
+/* jumbotron */
+
+/* debug */
+.debug header{
+    background-color: blue;
+}
+
+.debug header>.row{
+    background-color: black;
+}
+
+.debug header>.row>.col{
+    border: 1px solid red;
+}
+
+
