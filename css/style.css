@@ -8,7 +8,9 @@ header>.row{
 }
 
 /* jumbotron */
-
+.jumbotron>.row{
+    height: 100%;
+}
 /* debug */
 .debug header{
     background-color: blue;
@@ -22,4 +24,15 @@ header>.row{
     border: 1px solid red;
 }
 
+.debug .jumbotron{
+    height: 300px;
+    background-color: blue;
+}
 
+.debug .jumbotron>.row{
+    background-color: rgb(51, 51, 51);
+}
+
+.debug .jumbotron>.row .col{
+    border: 1px solid rgb(255, 94, 0);
+}
