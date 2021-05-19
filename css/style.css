@@ -23,6 +23,19 @@
 .img-container img{
     width: 100%;
 }
+
+._border-white{
+    border-color: white;
+    border: 1px solid white;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.btn:hover{
+    color: white;
+}
 /* header */
 header{
     height: 80px;
