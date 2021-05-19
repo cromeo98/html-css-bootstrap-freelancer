@@ -40,6 +40,10 @@
 a:hover{
     color: currentColor;
 }
+
+.green{
+    color:#1abc9c
+}
 /* header */
 header{
     height: 80px;
@@ -61,8 +65,6 @@ header .full-screen{
     height: 300px;
 }
 
-
-
 #start-bootstrap .list ul li:nth-child(2)::before,
 #start-bootstrap .list ul li:nth-child(2)::after{
     content: '-';
@@ -78,48 +80,14 @@ form .btn{
     background-color: #1abc9c;
 }
 
-
 /* footer */
-
-/* debug */
-/* .debug header .full-screen{
-    background-color: blue;
-} */
-
-/* .debug header .container>.row{
-    background-color: black;
-} */
-
-.debug [class*="col"]{
-    border: 1px solid red;
+.top-footer{
+    background-color: #3a546d;
 }
 
-/* .debug #portfolio [class*="col"]{
-    background-color: aquamarine;
-} */
-
-.debug #start-bootstrap{
-    /* height: 800px; */
-    /* background-color: orange; */
+.bottom-footer{
+    background-color: #2c3e50;
 }
 
-/* .debug .jumbotron .row{
-    background-color: rgb(182, 182, 182);
-} */
 
-/* .debug #portfolio{
-    background-color: lightslategrey;
-} */
-
-.debug footer{
-    background-color: navy;
-}
-
-.debug .top-footer{
-    background-color: olivedrab;
-}
-
-.debug .bottom-footer{
-    background-color: olive;
-}
 
