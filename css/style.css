@@ -29,12 +29,16 @@
     border: 1px solid white;
 }
 
-.btn:focus{
-    box-shadow: none;
+.btn:focus, .form-control:focus{
+    box-shadow: 0 0 0 .25rem rgba(26,188,156,.25);
 }
 
 .btn:hover{
-    color: white;
+    color: currentColor;
+}
+
+a:hover{
+    color: currentColor;
 }
 /* header */
 header{
@@ -67,6 +71,10 @@ header .full-screen{
 
 /* about section */
 #about .full-screen{
+    background-color: #1abc9c;
+}
+
+form .btn{
     background-color: #1abc9c;
 }
 
